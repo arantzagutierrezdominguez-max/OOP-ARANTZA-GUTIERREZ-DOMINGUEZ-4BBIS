@@ -7,7 +7,7 @@ class User:
         print(f"hi, my name is {self.name}")
 
 class Post:
-    def __init__(self, titlle, content, author):
+    def __init__(self, title, content, author):
         self.title = title
         self.content = content
         self.author = author
